@@ -1,0 +1,6 @@
+img[alt~="90%"] {
+  width: 90%;
+}
+img[alt~="40%"] {
+  width: 40%;
+}
