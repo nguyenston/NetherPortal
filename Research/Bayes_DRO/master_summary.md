@@ -1,5 +1,9 @@
 ---
-tags: Bayesian, RobustOptimization, MachineLearning
+tags:
+  - Bayesian
+  - RobustOptimization
+  - MachineLearning
+title: Master summary
 ---
 # Thesis
 
@@ -82,10 +86,9 @@ This is more tractable since the two optimization problems are over finite-dimen
 > * Choose the metric $d$ such that $$\limsup_{d(x,x')\to\infty} \frac{L(\theta,x')-L(\theta,x)}{d(x,x')^p}<\infty\ \forall\theta.$$
 > * It is shown that the optima $\lambda$ satisfies $$\lambda \geq\limsup_{d(x,x')\to\infty} \frac{L(\theta,x')-L(\theta,x)}{d(x,x')^p}\ \text{for any }\theta.$$
 
+# Heterogeneous data pitch
 
-# Heterogenous data pitch
-
-Under the context of [[Defining robustness#Worst case sub-population|worst case subpopulation]], we want to find a one size fits all solution that caters to all instances of the data up to a certain degree. What if we go the other direction and infer solutions that **specialize** towards certain subpopulations. For example, consider the following linear regression problem and potential posterior for the slope coefficient:
+Under the context of [[defining_robustness#Worst case sub-population|worst case subpopulation]], we want to find a one size fits all solution that caters to all instances of the data up to a certain degree. What if we go the other direction and infer solutions that **specialize** towards certain subpopulations. For example, consider the following linear regression problem and potential posterior for the slope coefficient:
 $$
 y\sim \mathcal{N}(\boldsymbol{\beta}^{\mathrm{T}}\mathbf{z},\sigma^2)
 $$
@@ -94,6 +97,7 @@ $$
 The specialized posterior tries to come up with solutions that cater best to one of the two sup-population of the data instead of trying to get acceptable performance for all of them at once. With this maybe we can detect multi-modality or detect outliers. This might al signal that the model we are using cannot capture the dynamics of the system at hand.
 
 ## Alternative divergences/modifying loss function
+
 
 In the context of regression, we want to infer parameters $\theta$ such that the parameterized distribution $P_{\theta}$ matches with the true data generating distribution $P_{\star}$. For inference, the posterior $Q_{\star}$ over $\theta$ is found through solving the following:
 

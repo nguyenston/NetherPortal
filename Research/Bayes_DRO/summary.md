@@ -1,5 +1,9 @@
 ---
-tags: Bayesian, RobustOptimization, MachineLearning
+tags:
+  - Bayesian
+  - RobustOptimization
+  - MachineLearning
+title: Summary
 ---
 
 # Thesis
@@ -8,7 +12,7 @@ A comprehensive framework to formalize trustworthy inference and learning. We pr
 
 # Framework description
 
-Let $\Theta$ the parameter space, $\mathcal{X}$ the space of observations, and $L:\Theta \times \mathcal{X}\to \mathbb{R}$ the loss function. Given any [[Measurable space|measurable space]] $(S,\mathcal{B})$ , let $\mathcal{P}(S)$ denote the space of [[Probability space|probability measures]] on $S$. Given the data $X=\left\{x_{i}\right\}_{1:n}\in\mathcal{X}^n$, let $P_{X}=\frac{1}{n}\sum_{i=1}^n\delta_{x_{i}}\in\mathcal{P}(\mathcal{X})$ denote the empirical data distribution. For any $P\in\mathcal{P}(\mathcal{X})$, define the neighborhood set $\Omega(P)\subset \mathcal{P}(\mathcal{X})$, which contains distributions similar to P. In addition, let $\mathcal{Q}\subseteq \mathcal{P}(\Theta)$ be the set of feasible posteriors for the parameter.
+Let $\Theta$ the parameter space, $\mathcal{X}$ the space of observations, and $L:\Theta \times \mathcal{X}\to \mathbb{R}$ the loss function. Given any [[measurable_space|measurable space]] $(S,\mathcal{B})$ , let $\mathcal{P}(S)$ denote the space of [[probability_space|probability measures]] on $S$. Given the data $X=\left\{x_{i}\right\}_{1:n}\in\mathcal{X}^n$, let $P_{X}=\frac{1}{n}\sum_{i=1}^n\delta_{x_{i}}\in\mathcal{P}(\mathcal{X})$ denote the empirical data distribution. For any $P\in\mathcal{P}(\mathcal{X})$, define the neighborhood set $\Omega(P)\subset \mathcal{P}(\mathcal{X})$, which contains distributions similar to P. In addition, let $\mathcal{Q}\subseteq \mathcal{P}(\Theta)$ be the set of feasible posteriors for the parameter.
 
 The basic framework solves the constrained minimax optimization
 $$
@@ -52,3 +56,4 @@ $$
 \theta_{\star}=\mathop{\mathrm{argmin}}_{\theta\in\Theta}\mathop{\mathrm{sup}}_{P\in\Omega(P_{X})}\mathbb{E}_{x\sim P}[L(\theta,x)],\tag{DRO}
 $$
 which is the set up for distributionally robust optimization.
+

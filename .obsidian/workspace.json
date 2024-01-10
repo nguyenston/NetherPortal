@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Bayes_DRO/Proof of Gibbs Posterior.md",
+                "file": "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Bayes_DRO/Relevant divergences.md",
+                "file": "Research/Bayes_DRO/relevant_divergences.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Bayes_DRO/Heterogenous data idea.md",
+                "file": "Research/Bayes_DRO/heterogeneous_data_idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:RobustOptimization",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,12 +98,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "eb86dff5b85e1058",
@@ -178,37 +178,39 @@
   },
   "active": "d27f8590127a68da",
   "lastOpenFiles": [
-    "Research/Bayes_DRO/Master summary.md",
-    "Research/Bayes_DRO/Heterogenous data idea.md",
-    "Research/Bayes_DRO/Relevant divergences.md",
-    "Research/Bayes_DRO/Proof of Gibbs Posterior.md",
+    "Research/Bayes_DRO/heterogeneous_data_idea.md",
+    "Research/Bayes_DRO/relevant_divergences.md",
+    "Concepts/set-theoretic_limit.md",
+    "Concepts/separable_space.md",
+    "Concepts/reproducing_kernel_hilbert_spaces.md",
+    "Concepts/metric_spaces.md",
+    "Concepts/inner_products_and_hilbert_spaces.md",
+    "Concepts/estimators.md",
+    "Concepts/equivalence_relation.md",
+    "Concepts/complete_metric_spaces.md",
+    "Research/Bayes_DRO/summary.md",
+    "Research/Bayes_DRO/contaminated_density.svg",
+    "Research/Bayes_DRO/cater_vs_noncater.svg",
+    "Research/Bayes_DRO/Bayesian DRO Framework.canvas",
+    "Research/Bayes_DRO/defining_robustness.md",
+    "Research/Bayes_DRO/dual_formulation_for_wasserstein_neighborhood_set.md",
+    "Research/Bayes_DRO/master_summary.md",
+    "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
+    "Probability space.md",
+    "Measurable space.md",
+    "Untitled.canvas",
     "Untitled",
     "Research/Bayes_DRO/softplus.svg",
-    "Research/Bayes_DRO/Summary.md",
     "Research/Bayes_DRO/log_loss.svg",
     "desktop.ini",
-    "Research/Bayes_DRO/Defining robustness.md",
-    "Research/Bayes_DRO/Dual formulation for Wasserstein neighborhood set.md",
     "Research/Bayes_DRO/Summary 1.md",
-    "Research/Bayes_DRO/contaminated_density.svg",
     "Research/Bayes_DRO/linear_regression.html",
     "Research/Bayes_DRO/heterogenous_linear_regression.svg",
-    "Concepts/Separable space.md",
-    "Concepts/Complete metric spaces.md",
-    "Concepts/Estimators.md",
-    "Research/Bayes_DRO/Bayesian DRO Framework.canvas",
     "Research/Bayes_DRO/alt_loss.svg",
-    "Research/Bayes_DRO/cater_vs_noncater.svg",
-    "Concepts/Equivalence relation.md",
     "Templates/Standard note.md",
     "Templates/Paper summary.md",
     "Templates/Mathjax preamble.md",
-    "Concepts/Inner products and Hilbert spaces.md",
-    "Concepts/Set-theoretic limit.md",
-    "Concepts/Metric spaces.md",
-    "Concepts/Reproducing kernel Hilbert spaces.md",
     "Dual trick.md",
-    "Untitled.canvas",
     "Concepts/Assets/cauchy_sequence.svg",
     "Concepts/Assets/RKHS1.svg",
     "Equivalence%20relation.md",
@@ -221,8 +223,6 @@
     "Research",
     "metric space.md",
     "Metric Space.md",
-    "LatexSnippets/Default snippets.txt",
-    "LatexSnippets/Default snippets.md",
-    "2023-08-07.md"
+    "LatexSnippets/Default snippets.txt"
   ]
 }

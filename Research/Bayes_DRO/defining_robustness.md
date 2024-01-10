@@ -1,4 +1,8 @@
-With the definitions defined [[Summary#Framework description|here]], we want to solve the minimax problem:
+---
+title: Defining robustness
+---
+
+With the definitions defined [[summary#Framework description|here]], we want to solve the minimax problem:
 $$
 Q^\star=\mathop{\mathrm{argmin}}_{Q\in\mathcal{Q}}\ \mathbb{E}_{\theta \sim Q}\left\{\mathop{\mathrm{sup}}_{P\in\Omega(P_{X})}\ \mathbb{E}_{x\sim P}[L(\theta,x)]\right\} +\alpha D_{KL}(Q|Q_{0}).\tag{MAIN}
 $$

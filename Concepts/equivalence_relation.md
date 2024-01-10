@@ -1,5 +1,7 @@
 ---
-Tags: SetTheory
+tags:
+  - SetTheory
+title: Equivalence relation
 ---
 
 > [!tip] Takeaway

@@ -1,3 +1,7 @@
+---
+title: Relevant divergences
+---
+
 # Kullback-Leibler Divergence
 
 $$
@@ -51,4 +55,4 @@ W_{d}^{p}(P,Q)=\left(\begin{align}
 &\int_{\mathcal{X}}\gamma(dx,\cdot)=Q(\cdot)
 \end{align}\right)^{1/p} 
 $$
-* If used as a neighborhood set, the dual of the formulation is more [[Dual formulation for Wasserstein neighborhood set|tractable]].
+* If used as a neighborhood set, the dual of the formulation is more [[dual_formulation_for_wasserstein_neighborhood_set|tractable]].

@@ -1,5 +1,9 @@
 ---
-Tags: Analysis, MachineLearning, Incomplete
+tags:
+  - Analysis
+  - MachineLearning
+  - Incomplete
+title: Reproducing kernel Hilbert spaces
 ---
 
 # Positive definite kernel
@@ -23,7 +27,7 @@ for any vector $\mathbf{c}\in\mathbb{R}^n$.
 Fig. Relationships between RKHS and related spaces, sets with the same color share an <a href="Equivalence relation.md" class="internal-link">equivalence relation</a>
 </figcaption>
 
-A reproducing kernel Hilbert space $\mathcal{H}_{k}$ with kernel $k$ is a [[Inner products and Hilbert spaces#Hilbert spaces|Hilbert space]] equipped with the [[Inner products and Hilbert spaces#Inner products|inner product]] $\langle\cdot,\cdot\rangle_{\mathcal{H}_{k}}$  that satisfies
+A reproducing kernel Hilbert space $\mathcal{H}_{k}$ with kernel $k$ is a [[inner_products_and_hilbert_spaces#Hilbert spaces|Hilbert space]] equipped with the [[inner_products_and_hilbert_spaces#Inner products|inner product]] $\langle\cdot,\cdot\rangle_{\mathcal{H}_{k}}$  that satisfies
 * $\forall x\in\mathcal{X},k(\cdot,x)\in\mathcal{H}_{k}$
 * $\forall x\in\mathcal{X},\forall f\in\mathcal{H}_{k},\langle f,k(\cdot,x)\rangle_{\mathcal{H}_{k}}=f(x)$
 The latter being called the reproducing property.

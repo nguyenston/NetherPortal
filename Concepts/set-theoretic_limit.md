@@ -1,5 +1,9 @@
 ---
-Tags: SetTheory, Probability, Incomplete
+tags:
+  - SetTheory
+  - Probability
+  - Incomplete
+title: Set-theoretic limit
 ---
 
 # Definitions

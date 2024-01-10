@@ -1,5 +1,8 @@
 ---
-tags: MachineLearning, Analysis
+tags:
+  - MachineLearning
+  - Analysis
+title: Inner products and Hilbert spaces
 ---
 
 # Inner products
@@ -17,6 +20,6 @@ $$\begin{align}
 
 # Hilbert spaces
 
- Hilbert spaces are inner product spaces that are [[Complete metric spaces|complete]]. Following are some examples of Hilbert spaces:
+ Hilbert spaces are inner product spaces that are [[complete_metric_spaces|complete]]. Following are some examples of Hilbert spaces:
  - The vector spaces $\mathbb{R}^n$ with $\langle\mathbf{a},\mathbf{b}\rangle=\mathbf{a}^{\mathrm{T}}\mathbf{b}$
  - The space $L^{2}$ of square integrable functions (i.e. $\int f(x)^2dx<\infty$) with $\langle f,g\rangle=\int f(x)g(x)dx$ 

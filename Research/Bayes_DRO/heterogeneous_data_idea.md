@@ -1,6 +1,10 @@
-%%  %%# Pitch
+---
+title: Heterogeneous data idea
+---
 
-Under the context of [[Defining robustness#Worst case sub-population|worst case subpopulation]], we want to find a one size fits all solution that caters to all instances of the data up to a certain degree. What if we go the other direction and infer solutions that **specialize** towards certain subpopulations. For example, consider the following linear regression problem and potential posterior for the slope coefficient:
+# Pitch
+
+Under the context of [[defining_robustness#Worst case sub-population|worst case subpopulation]], we want to find a one size fits all solution that caters to all instances of the data up to a certain degree. What if we go the other direction and infer solutions that **specialize** towards certain subpopulations. For example, consider the following linear regression problem and potential posterior for the slope coefficient:
 $$
 y\sim \mathcal{N}(\boldsymbol{\beta}^{\mathrm{T}}\mathbf{z},\sigma^2)
 $$

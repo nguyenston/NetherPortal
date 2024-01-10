@@ -1,5 +1,7 @@
 ---
-Tags: Analysis
+tags:
+  - Analysis
+title: Metric spaces
 ---
 A metric space is an ordered pair $(M,d)$ where $M$ is a set and $d:M\times M\to \mathbb{R}$ is a distance measure (i.e. metric) on $M$. 
 A distance measure satisfies the following conditions for all $x,y,z\in M$:

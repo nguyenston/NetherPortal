@@ -1,4 +1,8 @@
-With definitions defined [[Summary#Framework description|here]], we have the following formulations:
+---
+title: Dual formulation for Wasserstein neighborhood set
+---
+
+With definitions defined [[summary#Framework description|here]], we have the following formulations:
 $$
 Q_{\star}=\mathop{\mathrm{argmin}}_{Q\in\mathcal{Q}}\ \mathbb{E}_{\theta \sim Q}\left\{L_{DR}(\theta,X)\right\} +\alpha D_{KL}(Q|Q_{0}).\tag{MAIN}
 $$
@@ -9,7 +13,7 @@ Suppose we choose the neighborhood set
 $$
 \Omega(P_{X})=\left\{P:W^p_{d}(P,P_{X})\leq \delta^{1/p}\right\},
 $$
-where $W_{d}^{p}$ is the Wasserstein p-distance defined [[Relevant divergences#Wasserstein p-Distance|here]], we can rewrite $L_{DR}$ as follows:
+where $W_{d}^{p}$ is the Wasserstein p-distance defined [[relevant_divergences#Wasserstein p-Distance|here]], we can rewrite $L_{DR}$ as follows:
 $$
 \begin{alignat}{2}
 L_{DR}(\theta,X)&&=\mathop{\mathrm{sup}}_{\gamma}\ &\mathbb{E}_{(x,\cdot)\sim \gamma}[L(\theta,x)]\\

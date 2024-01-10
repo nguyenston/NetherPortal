@@ -1,5 +1,7 @@
 ---
-Tags: Analysis
+tags:
+  - Analysis
+title: Separable space
 ---
 
 A space $\mathcal{X}$ is separable if it contains a [[Countable set| countable]], [[Dense subset|dense]] subset. 
