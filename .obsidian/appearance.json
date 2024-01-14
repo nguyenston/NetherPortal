@@ -1,8 +1,13 @@
 {
-  "accentColor": "#60b3be",
+  "accentColor": "",
   "textFontFamily": "Cambria Math,Bentham,Times New Roman",
+<<<<<<< HEAD
   "baseFontSize": 14,
   "cssTheme": "Obsidian Nord",
+=======
+  "baseFontSize": 19,
+  "cssTheme": "Catppuccin",
+>>>>>>> 041277cb13e46c74a83b16952114519f21487ecb
   "enabledCssSnippets": [
     "imageSize"
   ],
