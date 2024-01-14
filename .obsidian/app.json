@@ -6,7 +6,7 @@
   "attachmentFolderPath": "Concepts/Assets",
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
