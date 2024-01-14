@@ -8,6 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "980c25be405cef40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0af832a21fdd529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/Bayes_DRO/relevant_divergences.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d9cf3a0402d14bc1",
             "type": "leaf",
             "state": {
@@ -15,7 +39,6 @@
               "state": {
                 "file": "Research/Bayes_DRO/heterogeneous_data_idea.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -32,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "eb86dff5b85e1058",
@@ -160,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9cf3a0402d14bc1",
+  "active": "d27f8590127a68da",
   "lastOpenFiles": [
+    "tmp.lua",
     "Research/Bayes_DRO/dual_formulation_for_wasserstein_neighborhood_set.md",
     "Research/Bayes_DRO/heterogeneous_data_idea.md",
     "Research/Bayes_DRO/contaminated_density.svg",
@@ -171,17 +195,13 @@
     "Templates/Paper summary.md",
     "Templates/Mathjax preamble.md",
     "Research/Bayes_DRO/relevant_divergences.md",
-    "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
-    "Research/Bayes_DRO/master_summary.md",
-    "tmp.lua",
-    "1704856153-BYXN.md",
-    "Concepts/equivalence_relation.md",
-    "Concepts/estimators.md",
     "Concepts/set-theoretic_limit.md",
     "Concepts/separable_space.md",
     "Concepts/reproducing_kernel_hilbert_spaces.md",
     "Concepts/metric_spaces.md",
     "Concepts/inner_products_and_hilbert_spaces.md",
+    "Concepts/estimators.md",
+    "Concepts/equivalence_relation.md",
     "Concepts/complete_metric_spaces.md",
     "Research/Bayes_DRO/summary.md",
     "Research/Bayes_DRO/cater_vs_noncater.svg",
@@ -213,3 +233,4 @@
     "metric space.md",
     "LatexSnippets/Default snippets.txt"
   ]
+}
