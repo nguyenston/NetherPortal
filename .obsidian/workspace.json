@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d27f8590127a68da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Bayes_DRO/heterogeneous_data_idea.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d27f8590127a68da",
+  "active": "d9cf3a0402d14bc1",
   "lastOpenFiles": [
     "tmp.lua",
     "Research/Bayes_DRO/dual_formulation_for_wasserstein_neighborhood_set.md",
