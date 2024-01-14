@@ -1,4 +1,6 @@
 [
   "obsidian-latex-suite",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-front-matter-title-plugin",
+  "obsidian-local-rest-api"
 ]

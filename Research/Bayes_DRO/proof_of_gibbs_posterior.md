@@ -1,3 +1,7 @@
+---
+title: Proof of Gibbs posterior
+---
+
 **Lemma:** Let $(\mathcal{\Theta},\mathcal{F})$ be a measurable space. For any measure $P$ on $(\Theta,\mathcal{F})$ and any measurable function $L:\mathcal{\Theta}\to \mathbb{R}$ such that $\mathbb{E}_{\theta\sim P}[e^{L(\theta)}]<\infty$,
 $$
 \log \left(\mathbb{E}_{\theta\sim P}[e^{L(\theta)}]\right)=\mathop{\mathrm{sup}}_{Q\ll P}\ \mathbb{E}_{\theta \sim Q}[L(\theta)]-D_{KL}(Q|P),

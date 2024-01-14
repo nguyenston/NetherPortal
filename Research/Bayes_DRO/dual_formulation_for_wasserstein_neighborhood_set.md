@@ -1,4 +1,6 @@
 ---
+id: dual_formulation_for_wasserstein_neighborhood_set
+tags: []
 title: Dual formulation for Wasserstein neighborhood set
 ---
 

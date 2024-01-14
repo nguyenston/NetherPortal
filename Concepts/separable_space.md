@@ -1,4 +1,5 @@
 ---
+id: separable_space
 tags:
   - Analysis
 title: Separable space

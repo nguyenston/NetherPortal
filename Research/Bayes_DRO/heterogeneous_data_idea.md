@@ -1,4 +1,6 @@
 ---
+id: heterogeneous_data_idea
+tags: []
 title: Heterogeneous data idea
 ---
 
@@ -86,5 +88,11 @@ $$
 **Not very satisfying, nor intuitive**
 # Questions
 
+# Take a step back
 
-* Bayes bag
+High priority project
+Are there aspect of this that I like?
+What are the kind of problems that I am interested in?
+
+Mixture model -> how many components?
+Robust model selection

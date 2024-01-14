@@ -6,7 +6,7 @@ With the definitions defined [[summary#Framework description|here]], we want to 
 $$
 Q^\star=\mathop{\mathrm{argmin}}_{Q\in\mathcal{Q}}\ \mathbb{E}_{\theta \sim Q}\left\{\mathop{\mathrm{sup}}_{P\in\Omega(P_{X})}\ \mathbb{E}_{x\sim P}[L(\theta,x)]\right\} +\alpha D_{KL}(Q|Q_{0}).\tag{MAIN}
 $$
-We want to infer the posterior $Q^\star$ over parameter $\theta$ so as to be **robust** against **distributional shifts** in the the data $X$ (distributionally robust optimization - DRO). In order to solidify this notion of **"robustness"**, it is useful to specify several scenarios of distributional shifts and what it means to be robust against these adversary.  
+We want to infer the posterior $Q^\star$ over parameter $\theta$ so as to be **robust** against **distributional shifts** in the the data $X$ (distributionally robust optimization - DRO). In order to solidify this notion of **"robustness"**, it is useful to specify several scenarios of distributional shifts and what it means to be robust against these adversary.
 
 # Huber's contamination model
 
@@ -28,5 +28,3 @@ Interestingly, this notion of "robustness" somewhat (but not completely) goes ag
 
 > [!tip] Remark
 > In the context of DRO, the "distributional shift" lies in the fact that in reality/testing, these "rare" instances might be more common than the training data might suggests.
-
-
