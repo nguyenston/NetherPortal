@@ -6,7 +6,7 @@ title: Heterogeneous data idea
 
 # Pitch
 
-Under the context of [[defining_robustness#Worst case sub-population|worst case subpopulation]], we want to find a one size fits all solution that caters to all instances of the data up to a certain degree. What if we go the other direction and infer solutions that **specialize** towards certain subpopulations. For example, consider the following linear regression problem and potential posterior for the slope coefficient:
+Under the context of [[defining_robustness#Worst case sub-population|worst case sub population]], we want to find a one size fits all solution that caters to all instances of the data up to a certain degree. What if we go the other direction and infer solutions that **specialize** towards certain sub-populations. For example, consider the following linear regression problem and potential posterior for the slope coefficient:
 $$
 y\sim \mathcal{N}(\boldsymbol{\beta}^{\mathrm{T}}\mathbf{z},\sigma^2)
 $$
@@ -41,7 +41,7 @@ Whether or not perturbing $P_{\star}$ within a neighborhood set directly contrib
 
 ## Asymptotic exponential domination
 
-Using $L(\theta,x)=nD_{\beta}(P_{X},P_{\theta})+C$ yields the conjected behavior for small sample size. However, as the number of samples goes to infinity, the posterior converges to a single peak. This is due to the exponential nature of the Gibbs posterior. Consider a hypothetical "counting loss", where good samples have a loss of $0$ and bad samples have a loss of $1$, and suppose for a dataset of size $n$, two sets of parameters $\theta_{1}$ and $\theta_{2}$ with corresponding losses $l_{1}$ and $l_{2}$ such that
+Using $L(\theta,x)=nD_{\beta}(P_{X},P_{\theta})+C$ yields the conjectured behavior for small sample size. However, as the number of samples goes to infinity, the posterior converges to a single peak. This is due to the exponential nature of the Gibbs posterior. Consider a hypothetical "counting loss", where good samples have a loss of $0$ and bad samples have a loss of $1$, and suppose for a dataset of size $n$, two sets of parameters $\theta_{1}$ and $\theta_{2}$ with corresponding losses $l_{1}$ and $l_{2}$ such that
 $$
 l_{1}=l_{2}+c.
 $$

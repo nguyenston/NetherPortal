@@ -1,5 +1,9 @@
 {
-  "accentColor": "",
+  "accentColor": "#886aec",
   "cssTheme": "Catppuccin",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "Avenir Next,Times New Roman",
+  "enabledCssSnippets": [
+    "imageSize"
+  ]
 }

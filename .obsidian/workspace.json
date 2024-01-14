@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
+                "file": "Research/Bayes_DRO/heterogeneous_data_idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d9cf3a0402d14bc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Bayes_DRO/heterogeneous_data_idea.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,18 +158,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9cf3a0402d14bc1",
+  "active": "980c25be405cef40",
   "lastOpenFiles": [
+    "Research/Bayes_DRO/relevant_divergences.md",
+    "Research/Bayes_DRO/heterogeneous_data_idea.md",
+    "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
+    "Research/Bayes_DRO/defining_robustness.md",
     "tmp.lua",
     "Research/Bayes_DRO/dual_formulation_for_wasserstein_neighborhood_set.md",
-    "Research/Bayes_DRO/heterogeneous_data_idea.md",
     "Research/Bayes_DRO/contaminated_density.svg",
     "Research/Bayes_DRO/Bayesian DRO Framework.canvas",
     "Templates/Standard note.md",
     "README.md",
     "Templates/Paper summary.md",
     "Templates/Mathjax preamble.md",
-    "Research/Bayes_DRO/relevant_divergences.md",
     "Concepts/set-theoretic_limit.md",
     "Concepts/separable_space.md",
     "Concepts/reproducing_kernel_hilbert_spaces.md",
@@ -193,9 +182,7 @@
     "Concepts/complete_metric_spaces.md",
     "Research/Bayes_DRO/summary.md",
     "Research/Bayes_DRO/cater_vs_noncater.svg",
-    "Research/Bayes_DRO/defining_robustness.md",
     "Research/Bayes_DRO/master_summary.md",
-    "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
     "Probability space.md",
     "Measurable space.md",
     "Untitled.canvas",
@@ -218,7 +205,6 @@
     "communityIcon_l538j35ftd3b1.png",
     "Research/Bayes_DRO",
     "Research",
-    "metric space.md",
-    "LatexSnippets/Default snippets.txt"
+    "metric space.md"
   ]
 }
