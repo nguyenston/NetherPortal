@@ -2,9 +2,14 @@
   "database": "Zotero",
   "noteImportFolder": "",
   "pdfExportImageDPI": 120,
-  "pdfExportImageFormat": "jpg",
+  "pdfExportImageFormat": "png",
   "pdfExportImageQuality": 90,
   "citeFormats": [
+    {
+      "name": "Pandoc",
+      "format": "pandoc",
+      "brackets": true
+    },
     {
       "name": "Cite",
       "format": "formatted-citation"
@@ -20,7 +25,7 @@
       "name": "Create Literature Note",
       "outputPathTemplate": "LiteratureNotes/Notes/@{{citekey}}.md",
       "imageOutputPathTemplate": "LiteratureNotes/Assets/{{citekey}}/",
-      "imageBaseNameTemplate": "image",
+      "imageBaseNameTemplate": "{{citekey}}",
       "templatePath": "Templates/literature_notes.md",
       "cslStyle": "apa"
     }

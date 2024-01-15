@@ -4,3 +4,6 @@ img[alt~="90%"] {
 img[alt~="40%"] {
   width: 40%;
 }
+img[alt~="65%"] {
+  width: 65%;
+}

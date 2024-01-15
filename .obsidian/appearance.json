@@ -1,12 +1,13 @@
 {
-  "accentColor": "#886aec",
-  "cssTheme": "Catppuccin",
+  "accentColor": "",
+  "cssTheme": "Everforest",
   "theme": "obsidian",
   "textFontFamily": "Avenir Next,Courier New,Times New Roman",
   "enabledCssSnippets": [
     "imageSize",
-    "documentWidth"
+    "documentWidth",
+    "thickUnderline"
   ],
-  "baseFontSize": 16,
+  "baseFontSize": 14,
   "monospaceFontFamily": "Courier New"
 }

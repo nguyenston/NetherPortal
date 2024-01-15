@@ -44,56 +44,54 @@ dateread:
 
 
 
-### Imported: 2024-01-15 03:36 pm
+### Imported: 2024-01-15 03:33 pm
 
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
 > Mixture models are used in a wide range of applications, including population structure (Pritchard, Stephens, and Donnelly 2000), document modeling (Blei, Ng, and Jordan 2003), speaker recognition (Reynolds, Quatieri, and Dunn 2000), computer vision (Stauffer and Grimson 1999), phylogenetics (Pagel and Meade 2004), and gene expression profiling (Yeung et al. 2001)
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
-> A common issue with finite mixtures is that it can be difficult to choose an appropriate number of mixture component
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> A common issue with finite mixtures is that it can be difficult to choose an appropriate numberofmixturecomponent
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
-> From a Bayesian perspective, perhaps the most natural approach is to treat the number of components k like any other unknown parameter and put a prior on it. When the prior on the mixture weights is Dirichletk(γ,...,γ) given k, we refer to such a model as a mixture of finite mixtures (MFM)
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> From a Bayesian perspective, perhaps the most natural approach is to treat the number of components k like any other unknown parameter and put a prior on it. When the prior on the mixture weights is Dirichletk(γ,...,γ)given k, we refer to such a model as a mixture of finite mixtures (MFM)
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
-> most commonly used method being reversible jump Markov chain Monte Carlo
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> mostcommonlyusedmethod being reversible jump Markov chain Monte Carlo
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
-> difficult to use since applying it to new situations requires one to design good reversible jump moves, which is often nontrivial, particularly in high-dimensional parameter spaces
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> difficulttousesinceapplyingittonewsituations requires one to design good reversible jump moves, which is often nontrivial, particularly in high-dimensional parameter spaces
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
 > infinite mixture models such as Dirichlet process mixtures (DPMs) have become popular, partly due to the existence of relatively simple and generic Markov chain Monte Carlo (MCMC)
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
-> These algorithms are made possible by the variety of computationally tractable representations of the Dirichlet process, including its exchangeable partition distribution, the Blackwell–MacQueen urn process (a.k.a. the Chinese restaurant process), the random discrete measure formulation, and the Sethuraman–Tiwari stick-breaking representation
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> These algorithmsaremadepossiblebythevarietyofcomputationally tractable representations of the Dirichlet process, including its exchangeable partition distribution, the Blackwell–MacQueen urn process (a.k.a. the Chinese restaurant process), the random discrete measure formulation, and the Sethuraman–Tiwari stick-breaking representation
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
 > there are MFM counterparts for each of these properties
 
-<b class="thickUnd" style="text-decoration-color: #2ea8e5">Quote</b>
-> main point of this article is that the MFM versions of these representations are simple enough, and parallel the DPM versions closely enough, that many of the inference algorithms developed for DPMs can be directly applied to MFMs.
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> main point of this article is that the MFM versions of theserepresentationsaresimpleenough,andparalleltheDPM versions closely enough, that many of the inference algorithms developed for DPMs can be directly applied to MFMs.
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
 > key properties of MFMs hold for any choice of prior distribution on the number of components
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
-> In Sections 2 and 3,we formally define the MFM and show that it gives rise to a simple exchangeable partition distribution closely paralleling that of the Dirichlet process. In Section 4, we describe the Pólya urn scheme (restaurant process), random discrete measure formulation, and stick-breaking representation for the MFM. In Section 5, we establish some asymptotic results for MFMs. In Section 6,we show how the properties in Sections 3 and 4 lead to efficient inference algorithms for the MFM. In Section 7,we compare the mixing performance of reversible jump versus our proposed algorithms
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
+> In Sections 2 and 3,we formally define the MFM and show that it gives rise to a simple exchangeable partition distribution closely paralleling that of the Dirichlet process. In Section 4, we describe the Pólya urn scheme (restaurant process), random discrete measure formulation, and stick-breaking representation for the MFM. In Section 5, we establish some asymptotic results for MFMs. In Section 6,weshowhowthepropertiesinSections 3 and 4 lead to efficient inference algorithms for the MFM. In Section 7,we compare the mixing performance of reversible jump versus our proposed algorithms
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Quote</b>
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
 > provide an empirical comparison between MFMs and DPMs
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Rectangle</b>
-> ![[LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x42-y31.png|65%]]
+![[LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x42-y31.png]]
 
-<b class="thickUnd" style="text-decoration-color: #ffd400">Rectangle</b>
-> ![[LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x307-y269.png|65%]]
+![[LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x307-y269.png]]
 
-<b class="thickUnd" style="text-decoration-color: #a28ae5">Quote</b>
+<b class="thickUnd" style="text-decoration-color: ">Quote</b>
 > The primary observation on which our development relies is that the distribution on partitions induced by an MFM takes a form which is simple enough that it can be easily computed.
 
 
 %% end annotations %%
 
 
-%% Import Date: 2024-01-15T15:36:52.216-05:00 %%
+%% Import Date: 2024-01-15T15:34:03.496-05:00 %%

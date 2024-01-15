@@ -49,14 +49,26 @@ dateread:
 >{{markdownNotes}}{%- endif %}
 
 # Annotations
-{% macro calloutHeader(type, color) -%}
-{%- if type == "highlight" -%}
-<mark style="background-color: {{color}}">Quote</mark>
+{% macro callout(a) -%}
+{%- if a.type == "highlight" -%}
+<b class="thickUnd" style="text-decoration-color: {{a.color}}">Quote</b>
+> {{a.annotatedText}}
+
 {%- endif -%}
 
-{%- if type == "text" -%}
-Note
+{%- if a.type == "text" -%}
+<b class="thickUnd" style="text-decoration-color: {{a.color}}">Note</b>
+> {{a.annotatedText}}
+
 {%- endif -%}
+
+{%- if a.type  == "image" -%}
+<b class="thickUnd" style="text-decoration-color: {{a.color}}">Rectangle</b>
+> ![[{{a.imageRelativePath.replace("base_name/output_path", citekey)}}|65%]]
+
+{%- endif -%}
+
+
 {%- endmacro -%}
 
 {% persist "annotations" %}
@@ -66,7 +78,7 @@ Note
 ### Imported: {{importDate | format("YYYY-MM-DD hh:mm a")}}
 
 {% for a in newAnnotations %}
-> {{a.annotatedText}}
+{{callout(a)}}
 {% endfor %}
 {% endif %}
 {% endpersist %}
