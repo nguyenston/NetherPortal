@@ -1,7 +1,8 @@
 [
   "obsidian-front-matter-title-plugin",
   "obsidian-latex-suite",
-  "obsidian-local-rest-api",
   "obsidian-git",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-zotero-desktop-connector",
+  "dataview"
 ]

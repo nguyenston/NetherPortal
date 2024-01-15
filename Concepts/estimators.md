@@ -4,7 +4,7 @@ tags:
 title: Estimators
 ---
 
-An *estimator*  is a **rule** to calculate an *estimate*, an **approximation**, to some **quantity of interests**, given **observed data**.
+An *estimator* is a **rule** to calculate an *estimate*, an **approximation**, to some **quantity of interests**, given **observed data**.
 
 # Definition
 

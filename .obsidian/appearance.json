@@ -2,8 +2,10 @@
   "accentColor": "#886aec",
   "cssTheme": "Catppuccin",
   "theme": "obsidian",
-  "textFontFamily": "Avenir Next,Times New Roman",
+  "textFontFamily": "Avenir Next,Courier New,Times New Roman",
   "enabledCssSnippets": [
     "imageSize"
-  ]
+  ],
+  "baseFontSize": 18,
+  "monospaceFontFamily": "Courier New"
 }

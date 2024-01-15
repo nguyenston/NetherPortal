@@ -96,3 +96,4 @@ What are the kind of problems that I am interested in?
 
 Mixture model -> how many components?
 Robust model selection
+
