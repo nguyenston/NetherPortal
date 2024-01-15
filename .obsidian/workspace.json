@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0af832a21fdd529",
+            "id": "290e5444d2fcaf62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14454f2429cd118e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md",
-                "mode": "source",
-                "source": true
+                "mode": "preview",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,19 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e2027639a04f40d",
+  "active": "14454f2429cd118e",
   "lastOpenFiles": [
-    "Templates/literature_notes.md",
-    "LiteratureNotes/Notes",
-    "LiteratureNotes/Untitled.md",
+    "LiteratureNotes/index.md",
     "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md",
+    "Templates/literature_notes.md",
     "Concepts/estimators.md",
+    "Templates/Paper summary.md",
+    "LiteratureNotes/Notes",
     "Concepts/inner_products_and_hilbert_spaces.md",
     "LiteratureNotes/@liRobustStructurallyAware.md",
     "Research/Bayes_DRO/relevant_divergences.md",
     "LiteratureNotes/Assets",
     "LiteratureNotes",
-    "Templates/Paper summary.md",
     "Templates/Standard note.md",
     "Research/Bayes_DRO/heterogeneous_data_idea.md",
     "Research/Bayes_DRO/proof_of_gibbs_posterior.md",

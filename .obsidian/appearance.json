@@ -4,8 +4,9 @@
   "theme": "obsidian",
   "textFontFamily": "Avenir Next,Courier New,Times New Roman",
   "enabledCssSnippets": [
-    "imageSize"
+    "imageSize",
+    "documentWidth"
   ],
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "monospaceFontFamily": "Courier New"
 }
