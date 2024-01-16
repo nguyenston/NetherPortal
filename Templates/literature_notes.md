@@ -49,21 +49,21 @@ dateread:
 >{{markdownNotes}}{%- endif %}
 
 # Annotations
-{% macro callout(a) -%}
+{% macro callout(a, label) -%}
 {%- if a.type == "highlight" -%}
-<b class="thickUnd" style="text-decoration-color: {{a.color}}">Quote</b>
+<b class="thickUnd" style="text-decoration-color: {{a.color}}">{{label}}</b>
 > {{a.annotatedText}}
 
 {%- endif -%}
 
-{%- if a.type == "text" -%}
+{%- if a.type == "note" -%}
 <b class="thickUnd" style="text-decoration-color: {{a.color}}">Note</b>
-> {{a.annotatedText}}
+> {{a.comment}}
 
 {%- endif -%}
 
 {%- if a.type  == "image" -%}
-<b class="thickUnd" style="text-decoration-color: {{a.color}}">Rectangle</b>
+<b class="thickUnd" style="text-decoration-color: {{a.color}}">{{label}}</b>
 > ![[{{a.imageRelativePath.replace("base_name/output_path", citekey)}}|65%]]
 
 {%- endif -%}
@@ -71,14 +71,22 @@ dateread:
 
 {%- endmacro -%}
 
-{% persist "annotations" %}
-{% set newAnnotations = annotations | filterby("date", "dateafter", lastImportDate) %}
-{% if newAnnotations.length > 0 %}
+{% for a in annotations -%}
 
-### Imported: {{importDate | format("YYYY-MM-DD hh:mm a")}}
+{%- if a.colorCategory == "Yellow" -%}
+{{callout(a, "Quote")}}
 
-{% for a in newAnnotations %}
-{{callout(a)}}
-{% endfor %}
+{% endif -%}
+{%- if a.colorCategory == "Blue" -%}
+{{callout(a, "Thesis")}}
+
 {% endif %}
-{% endpersist %}
+{%- if a.colorCategory == "Red" -%}
+{{callout(a, "Definitions")}}
+
+{% endif %}
+{%- if a.colorCategory == "Green" -%}
+{{callout(a, "Follow up read")}}
+
+{% endif -%}
+{%- endfor -%}

@@ -35,16 +35,14 @@
             "id": "57154e87baff9433",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Templates/literature_notes.md",
-                "mode": "source",
-                "source": false
+                "file": "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-10-x24-y414.png"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md",
+                "file": "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-10-x24-y414.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md",
+                "file": "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-10-x24-y414.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md"
+                "file": "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-10-x24-y414.png"
               }
             }
           },
@@ -180,18 +178,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "406a67f4b31e7ca0",
+  "active": "57154e87baff9433",
   "lastOpenFiles": [
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-9-x43-y526.png",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-7-x45-y222.png",
     "Templates/literature_notes.md",
     "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-10-x24-y414.png",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-7-x44-y58.png",
     "LiteratureNotes/index.md",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-4-x293-y638.png",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-4-x29-y608.png",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-4-x28-y714.png",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-4-x27-y155.png",
     "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x42-y31.png",
-    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x307-y269.png",
+    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/millerMixtureModelsPrior2018-3-x309-y24.png",
     "LiteratureNotes/Assets/millerMixtureModelsPrior2018",
-    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/image-3-x307-y269.png",
-    "LiteratureNotes/Assets/millerMixtureModelsPrior2018/image-3-x42-y31.png",
     "Research/Bayes_DRO/defining_robustness.md",
-    "Research/Bayes_DRO/cater_vs_noncater.svg",
     "Concepts/estimators.md",
     "Templates/Paper summary.md",
     "LiteratureNotes/Notes",
@@ -205,7 +208,6 @@
     "Research/Bayes_DRO/proof_of_gibbs_posterior.md",
     "tmp.lua",
     "Research/Bayes_DRO/dual_formulation_for_wasserstein_neighborhood_set.md",
-    "Research/Bayes_DRO/contaminated_density.svg",
     "Research/Bayes_DRO/Bayesian DRO Framework.canvas",
     "README.md",
     "Templates/Mathjax preamble.md",
@@ -220,12 +222,8 @@
     "Probability space.md",
     "Measurable space.md",
     "Untitled.canvas",
-    "Research/Bayes_DRO/softplus.svg",
-    "Research/Bayes_DRO/log_loss.svg",
     "desktop.ini",
     "Research/Bayes_DRO/linear_regression.html",
-    "Research/Bayes_DRO/heterogenous_linear_regression.svg",
-    "Research/Bayes_DRO/alt_loss.svg",
     "Concepts/Assets",
     "LiteratureNotes/Assets",
     "New folder"
