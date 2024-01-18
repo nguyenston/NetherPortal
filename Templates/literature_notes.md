@@ -77,6 +77,10 @@ dateread:
 {{callout(a, "Quote")}}
 
 {% endif -%}
+{%- if a.colorCategory == "Orange" -%}
+{{callout(a, "Procedure")}}
+
+{% endif -%}
 {%- if a.colorCategory == "Blue" -%}
 {{callout(a, "Thesis")}}
 
