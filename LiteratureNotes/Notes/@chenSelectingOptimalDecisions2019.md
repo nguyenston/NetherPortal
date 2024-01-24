@@ -1,8 +1,9 @@
 ---
 category: literaturenote
-tags: bmcPilot
-citekey: "chenSelectingOptimalDecisions2019"
-status: unread
+tags:
+  - bmcPilot
+citekey: chenSelectingOptimalDecisions2019
+status: read
 dateread:
 ---
 > [!Cite]

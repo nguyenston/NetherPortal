@@ -5,9 +5,9 @@
   "textFontFamily": "Avenir Next,Courier New,Times New Roman",
   "enabledCssSnippets": [
     "imageSize",
-    "documentWidth",
-    "thickUnderline"
+    "thickUnderline",
+    "documentWidth"
   ],
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "monospaceFontFamily": "Courier New"
 }
