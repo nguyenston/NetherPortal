@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c26c5082e12f83e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/hangout_ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a10dfbf27b9afa1d",
             "type": "leaf",
             "state": {
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e4c6745bb6e4cced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/Bayes_DRO/summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/hangout_ideas.md",
+                "file": "Research/Bayes_DRO/summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/hangout_ideas.md",
+                "file": "Research/Bayes_DRO/summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/hangout_ideas.md"
+                "file": "Research/Bayes_DRO/summary.md"
               }
             }
           },
@@ -167,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c26c5082e12f83e",
+  "active": "e4c6745bb6e4cced",
   "lastOpenFiles": [
-    "Concepts/evidence_lower_bound.md",
+    "LiteratureNotes/Notes/@chenSelectingOptimalDecisions2019.md",
     "Personal/hangout_ideas.md",
+    "Concepts/evidence_lower_bound.md",
     "Personal",
     "Concepts/set-theoretic_limit.md",
     "Templates/literature_notes.md",
@@ -184,7 +186,6 @@
     "Concepts/equivalence_relation.md",
     "LiteratureNotes/Notes/@millerMixtureModelsPrior2018.md",
     "LiteratureNotes/index.md",
-    "LiteratureNotes/Notes/@chenSelectingOptimalDecisions2019.md",
     "LiteratureNotes/Notes/@huPersonalizedHypertensionTreatment2023.md",
     "LiteratureNotes/Assets/chenSelectingOptimalDecisions2019/chenSelectingOptimalDecisions2019-7-x98-y571.png",
     "LiteratureNotes/Assets/chenSelectingOptimalDecisions2019/chenSelectingOptimalDecisions2019-6-x107-y90.png",
