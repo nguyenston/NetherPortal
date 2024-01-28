@@ -4,6 +4,6 @@ tags:
   - Personal
 ---
 - [ ] Santouka, Allston
-- [ ] Isshindo, Super 88
+- [x] Isshindo, Super 88
 - [ ] Mala, Allston
 - [ ] Oomori, Coolige corner

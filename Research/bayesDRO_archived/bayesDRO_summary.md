@@ -1,5 +1,4 @@
 ---
-id: summary
 tags:
   - Bayesian
   - RobustOptimization
@@ -57,3 +56,5 @@ $$
 \theta_{\star}=\mathop{\mathrm{argmin}}_{\theta\in\Theta}\mathop{\mathrm{sup}}_{P\in\Omega(P_{X})}\mathbb{E}_{x\sim P}[L(\theta,x)],\tag{DRO}
 $$
 which is the set up for distributionally robust optimization.
+
+# This direction is kind of a loss

@@ -4,7 +4,7 @@ tags: []
 title: Dual formulation for Wasserstein neighborhood set
 ---
 
-With definitions defined [[summary#Framework description|here]], we have the following formulations:
+With definitions defined [[bayesDRO_summary#Framework description|here]], we have the following formulations:
 $$
 Q_{\star}=\mathop{\mathrm{argmin}}_{Q\in\mathcal{Q}}\ \mathbb{E}_{\theta \sim Q}\left\{L_{DR}(\theta,X)\right\} +\alpha D_{KL}(Q|Q_{0}).\tag{MAIN}
 $$

@@ -1,0 +1,5 @@
+---
+tags:
+  - bayesMixture
+title: Summary
+---

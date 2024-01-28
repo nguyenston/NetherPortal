@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"group","id":"8797ff8c18ff8c63","x":-940,"y":-1440,"width":1740,"height":701,"label":"Divergences"},
+		{"type":"file","file":"Research/bayesDRO_archived/bayesDRO_summary.md","id":"aebc98efba93ee39","x":-1840,"y":-920,"width":680,"height":840},
+		{"type":"file","file":"Research/bayesDRO_archived/relevant_divergences.md","subpath":"#Kullback-Leibler Divergence","id":"d720aa98157fe391","x":-920,"y":-1360,"width":430,"height":235},
+		{"type":"file","file":"Research/bayesDRO_archived/relevant_divergences.md","subpath":"#$ alpha$-Divergence","id":"4b460d678406f53b","x":-920,"y":-1075,"width":449,"height":307},
+		{"type":"file","file":"Research/bayesDRO_archived/relevant_divergences.md","subpath":"#$ beta$-Divergence (a.k.a. Density Power Divergence)","id":"149bacf86abf4ae2","x":100,"y":-1360,"width":680,"height":340},
+		{"type":"file","file":"Research/bayesDRO_archived/relevant_divergences.md","subpath":"#Total Variation Divergence","id":"4a2f695693990de6","x":-449,"y":-1360,"width":509,"height":235},
+		{"type":"file","file":"Research/bayesDRO_archived/defining_robustness.md","id":"7f81e00d3feef2c4","x":-950,"y":-660,"width":680,"height":320},
+		{"type":"file","file":"Research/bayesDRO_archived/defining_robustness.md","subpath":"#Huber's contamination model","id":"c3bd0f21d7170020","x":-1080,"y":-200,"width":460,"height":488},
+		{"type":"file","file":"Research/bayesDRO_archived/relevant_divergences.md","subpath":"#Wasserstein p-Distance","id":"2d1e3bf0e9ae6b87","x":-449,"y":-1073,"width":509,"height":307},
+		{"type":"file","file":"Research/bayesDRO_archived/relevant_divergences.md","subpath":"#Maximum Mean Discrepancy","id":"a6025413b738611d","x":100,"y":-980,"width":600,"height":166},
+		{"type":"file","file":"Research/bayesDRO_archived/defining_robustness.md","subpath":"#Worst case sub-population","id":"3da16c8185414bc9","x":-594,"y":-200,"width":400,"height":488},
+		{"id":"5a348a9ef7350866","x":-1900,"y":44,"width":800,"height":1180,"type":"file","file":"Research/bayesDRO_archived/heterogeneous_data_idea.md"}
+	],
+	"edges":[
+		{"id":"4ddd9c024abdc794","fromNode":"aebc98efba93ee39","fromSide":"right","toNode":"7f81e00d3feef2c4","toSide":"left"},
+		{"id":"4183bc21cba1d225","fromNode":"7f81e00d3feef2c4","fromSide":"bottom","toNode":"c3bd0f21d7170020","toSide":"top"},
+		{"id":"009b683882b64000","fromNode":"7f81e00d3feef2c4","fromSide":"bottom","toNode":"3da16c8185414bc9","toSide":"top"},
+		{"id":"a966b0d1ab8ad784","fromNode":"aebc98efba93ee39","fromSide":"bottom","toNode":"5a348a9ef7350866","toSide":"top"}
+	]
+}
