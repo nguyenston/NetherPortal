@@ -5,11 +5,11 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1706544926349
+      "lastUpdate": 1706599336065
     }
   ],
-  "renderCitations": true,
-  "renderCitationsReadingMode": true,
+  "renderCitations": false,
+  "renderCitationsReadingMode": false,
   "renderLinkCitations": true,
   "pullFromZotero": true,
   "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl",
