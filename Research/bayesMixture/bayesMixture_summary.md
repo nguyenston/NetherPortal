@@ -53,19 +53,39 @@ We want to extend the method above to work with NMF, as there are many similarit
 
 From literature, the NMF model is defined along the line of
 $$
-X\sim F\left(W^{(K)}H^{(K)}\right)
+X\sim F\left(W^{(K)}H^{(K)}\right),
 $$
 where $X\in (\mathcal{X}_{D})^{N}$ is the $D\times N$ data matrix, $W^{(K)}\in(\Delta_{D})^{K}$ is the $D\times K$ matrix of signatures/features, $H^{(K)}\in\mathbb{R}^{K\times N}_{>0}$ is the matrix of exposure/coefficients, and $F:\mathbb{R}^{D\times N}\to\mathcal{P}\left((\mathcal{X}_{D})^{N}\right)$ is the assumed model. In this definition, $W^{(K)}$ and $H^{(K)}$ are parameters.
 
-In order to make NMF more of a generalization of FMM, we propose the following definition. Let parameters $\pi^{(K)}\in\Pi^{(K)}$, $W^{(K)}\in(\Delta_{D})^{K}$, and models $G:\Pi^{(K)}\to\mathcal{P}\left(\mathbb{R}^{K}_{>0}\right)$, $F:\mathbb{R}^{D}\to\mathcal{P}(\mathcal{X}_{D})$. We generate the data $X_{N}=x_{1:N}\in(\mathcal{X}_{D})^{N}$ through the process
+In order to make NMF more of a generalization of FMM, we propose the following definition. Let parameters $\pi^{(K)}\in\Pi^{(K)}$, $W^{(K)}\in(\Delta_{D})^{K}$, and models $F^{[h,K]}:\Pi^{(K)}\to\mathcal{P}\left(\mathbb{R}^{K}_{>0}\right)$, $F^{[x]}:\mathbb{R}^{D}\to\mathcal{P}(\mathcal{X}_{D})$. We generate the data $X_{N}=x_{1:N}\in(\mathcal{X}_{D})^{N}$ through the process
 $$
 \begin{align}
-h^{(K)}_{i}&\sim G\left(\pi^{(K)}\right)&\text{for}\ i=1:n \\
-x_{i}|h^{(K)}_{i}&\sim F\left(W^{(K)}h^{(K)}_{i}\right)&\text{for}\ i=1:n
+h^{(K)}_{i}&\sim F^{[h,K]}\left(\pi^{(K)}\right)&\text{for}\ i=1:n, \\
+x_{i}|h^{(K)}_{i}&\sim F^{[x]}\left(W^{(K)}h^{(K)}_{i}\right)&\text{for}\ i=1:n.
+\end{align}
+$$
+With the additional definition of uniform noise $\epsilon_{1:N}\in([0,1]^{D})^{N}$, intermediate values $y_{1:N}\in(\mathbb{R}^{D})^{N}$ deterministic function $g^{[x]}:[0,1]^{D}\times\mathbb{R}^{D}\to\mathcal{X}_{D}$, we can also write the process in a more structurally explicit form:
+$$
+\begin{align}
+h^{(K)}_{i}&\sim F^{[h,K]}\left(\pi^{(K)}\right)&\text{for}\ i=1:N,\\
+\epsilon_{i}&\sim \mathrm{U}(0,1)^{D}&\text{for}\ i=1:N,\\
+x_{i}&= g^{[x]}\left(\epsilon_{i},W^{(K)}h^{(K)}_{i}\right)&\text{for}\ i=1:N.
 \end{align}
 $$
 
+For [[infinitely_divisible_distribution|infinitely divisible distributions]] (e.g. $\mathrm{Pois}(\lambda)$), we can also think of the data generating process as
+$$
+\begin{align}
+h^{(K)}_{i}&\sim F^{[h,K]}\left(\pi^{(K)}\right)&\text{for}\ i=1:n, \\
+Y^{(K)}_{i}|h^{(K)}_{i}&\sim F^{[y,K]}\left(W^{(K)}\mathrm{diag}\left(h^{(K)}_{i}\right)\right)&\text{for}\ i=1:n,\\
+x_{i}&=Y^{(K)}_{i}\boldsymbol{1}_{K}&\text{for}\ i=1:n.
+\end{align}
+$$
+Written in 
 ## Research problem
 
 * Unlike FMM, NMF doesn't seem to have a clearly defined concept of "misspecification"
-    * [[@pelizzolaModelSelectionRobust2023]], model misspecification is touched upon as the overdispersion of data, leading to an overestimation of the rank $K$ when the assumed model $F$ is Poisson.
+    * [[@pelizzolaModelSelectionRobust2023]], model misspecification is touched upon as the overdispersion of data, leading to an overestimation of the rank $K$ when the assumed model $F$ is Poisson
+* Implement the algorithm using synthetic data
+    * modular script
+    * point estimation of $\hat{\theta}^{(K)}$, any method

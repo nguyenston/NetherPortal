@@ -29,6 +29,7 @@
     {trigger: ";La", replacement: "\\Lambda", options: "mA"},
     {trigger: ";rh", replacement: "\\rho", options: "mA"},
     {trigger: ";ep", replacement: "\\epsilon", options: "mA"},
+    {trigger: ";Ep", replacement: "\\varepsilon", options: "mA"},
     {trigger: ";mu", replacement: "\\mu", options: "mA"},
     {trigger: ";nu", replacement: "\\nu", options: "mA"},
     {trigger: ";et", replacement: "\\eta", options: "mA"},
